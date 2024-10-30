@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:latihan_bloc/pages/control_page.dart';
 import 'package:latihan_bloc/pages/gedung.dart';
+import 'package:latihan_bloc/pages/profile.dart';
 
 class PerusahaanPage extends StatelessWidget {
   const PerusahaanPage({super.key});
@@ -35,7 +36,7 @@ class PerusahaanPage extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const ControlPage()),
+                  MaterialPageRoute(builder: (context) => const ProfilePage()),
                 );
               },
             ),
